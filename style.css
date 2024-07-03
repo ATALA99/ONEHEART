@@ -1,0 +1,211 @@
+body {
+    scroll-behavior: smooth;
+    background:url("https://imagetolink.com/ib/stCEa92kho.jpg") no-repeat center fixed;
+    background-size: cover;
+}https
+
+.banner {
+    background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+    text-align: center;
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.crop-img {
+    object-fit: cover;
+}
+
+.tim img {
+    width: 250px;
+    border: 10px solid #cccccc;
+}
+
+a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+    text-align: center;
+}
+
+.client.img {
+    height: auto;
+    max-height: 50px;
+}
+
+.promo-header {
+    color: #dc3545;
+}
+
+.card-header {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.card {
+    background-color: transparent;
+}
+.tim{
+    background-color: transparent;
+}
+.wa-button {
+    position: fixed;
+    bottom: 150px; /* Mengubah posisi vertikal */
+    right: 10px; /* Mengubah posisi horizontal */
+    z-index: 1000;
+}
+
+.wa-button img {
+    width: 60px;
+    display: block;
+    z-index: 1000;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.wa-button img:hover {
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5); /* Green backlight */
+    transform: scale(1.1); /* Slightly enlarge the icon */
+}
+
+.email-button {
+    position: fixed;
+    bottom: 90px; /* Mengubah posisi vertikal */
+    right: 10px; /* Mengubah posisi horizontal */
+    z-index: 1000;
+}
+
+.email-button img {
+    width: 60px;
+    display: block;
+    z-index: 1000;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.email-button img:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.5); /* Blue backlight */
+    transform: scale(1.1); /* Slightly enlarge the icon */
+}
+
+.instagram-button {
+    position: fixed;
+    bottom: 30px; /* Mengubah posisi vertikal */
+    right: 10px; /* Mengubah posisi horizontal */
+    z-index: 1000;
+}
+
+.instagram-button img {
+    width: 60px;
+    display: block;
+    z-index: 1000;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.instagram-button img:hover {
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); /* Red backlight */
+    transform: scale(1.1); /* Slightly enlarge the icon */
+}
+
+.et_pb_scroll_top.et-pb-icon {
+    background: rgb(210, 38, 135) !important;
+    bottom: 210px !important; /* Mengubah posisi vertikal */
+    left: 20px !important; /* Mengubah posisi horizontal */
+}
+
+/* CSS */
+
+
+.tim {
+    position: relative;
+    padding: 20px;
+    background-color: transparent; /* Menghilangkan latar belakang putih */
+}
+
+.tim img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tim img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tim h4 {
+    margin-top: 15px;
+    font-size: 1.25rem;
+    color: #333; /* Warna teks */
+}
+
+.tim p {
+    margin: 0;
+    color: #555; /* Warna teks */
+}
+
+.tim .social {
+    margin: 0 5px;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.tim .social:hover {
+    color: #007bff; /* Warna ikon media sosial saat dihover */
+}
+#peraturan {
+    position: relative;
+    z-index: 1;
+}
+
+#peraturan .card-body ol li {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#peraturan .card-body ol li:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 0, 0.2); /* backlight effect */
+    cursor: pointer;
+}
+.card-body table {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+}
+
+.card-body table:hover {
+    transform: scale(1.05);
+    background-color: #ff00f7;
+}
+#tentang p {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#tentang p:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 0, 0.2); /* backlight effect */
+    cursor: pointer;
+}
